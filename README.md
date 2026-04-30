@@ -2,16 +2,19 @@
 A simple Python repo with some tools useful in the world of digital soil mapping, taken from other work done in the R language.
 
 ## Overview
-This repo exists because most soil sampling scientists use R, not Python. In my work I use Python, so I wanted to make available to a wider audience some cutting edge tools that are available in R that I have translated for myself. This is in the spirit of open source collaboration in science.
-All of the work in this repo is based off existing works. Several common data science packages are used as well.
-I like to use the jupyter lab environment, but the code can be adapted to other Python runtimes as well.
-The versions listed below are what was used, and I am in the process of updating where newer versions are available.
+- This repo exists because most soil sampling scientists use R, not Python.
+- In my work I use Python, so I wanted to make available to a wider audience some cutting edge tools that are available in R that I have translated for myself.
+- This is all done in the spirit of open source collaboration in science.
+- All of the work in this repo is based off existing works. Several common data science packages are used as well.
+- I like to use the jupyter lab environment, but the code can be adapted to other Python runtimes as well.
+- The versions listed below are what was used, and I am in the process of updating where newer versions are available.
 
 ## Author
-This repo is currently managed by Collin Cupido at Food Water Wellness Foundation in Alberta, Canada. If you have questions or comments you can reach me at ccupido (at) foodwaterwellnessfoundation.org. (Please use your human brain to reconstruct the email!)
+- This repo is currently managed by Collin Cupido at Food Water Wellness Foundation in Alberta, Canada.
+- If you have questions or comments you can reach me at ccupido (at) foodwaterwellnessfoundation.org. (Please use your human brain to reconstruct the email!)
 
 ## License
-The MIT license is included with this repo.
+- The MIT license is included with this repo.
 
 ## PyPI Packages Required
 - numpy==1.26.4
