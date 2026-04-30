@@ -4,7 +4,7 @@ A simple Python repo with some tools useful in the world of digital soil mapping
 ## Overview
 - This repo exists because most soil sampling scientists use R, not Python.
 - In my work I use Python, so I wanted to make available to a wider audience some cutting edge tools that are available in R that I have translated for myself.
-- This is all done in the spirit of open source collaboration in science.
+- This is all done in the spirit of open source collaboration in science. I am starting small, and may add more in the future.
 - All of the work in this repo is based off existing works. Several common data science packages are used as well.
 - I like to use the jupyter lab environment, but the code can be adapted to other Python runtimes as well.
 - The versions listed below are what was used, and I am in the process of updating where newer versions are available.
@@ -29,10 +29,15 @@ A simple Python repo with some tools useful in the world of digital soil mapping
 
 ## Works Included
 - https://github.com/newdale/opendsm by Daniel Saurette: this is the core inspiration for this repo and opt_samp.py.
-- https://doi.org/10.1016/j.geoderma.2023.116553 by Saurette et al., 2023: this is the main paper which provides the test case for this code, and is also the scientific description for the above repo.
+- https://doi.org/10.1016/j.geoderma.2023.116553 by Saurette et al., 2023: this is the main paper which provides the test case for the opt_samp.py code, and is also the scientific description for the above repo.
 - https://doi.org/10.7717/peerj.6451 by Malone et al., 2019: this paper provides algorithmic details used in the quantile, cov_matrix, and h_matrix code chunks.
 - The packages from PyPI are also works in their own right. Check out their PyPI pages!
 
 ## Other Helpful Links
 - https://opengeohub.medium.com/spatial-sampling-and-resampling-for-predictive-mapping-with-machine-learning-a-tutorial-in-r-99f71555bc43: a short overview of how different algorithms are used in digital soil mapping to optimize sampling plans.
 - https://dickbrus.github.io/SpatialSamplingwithR/: a comprehensive manual on doing digital soil sampling in R.
+
+## How To Use
+- main.ipynb implements all of the functions in opt_samp.py with their necessary input variables. Use this as the guide.
+- main.ipynb uses the 12-covariate case with data from Saurette et al., 2023 as provided in the corresponding repo.
+- main.ipynb has a few options to comment in and out and change the outcome of the analysis.
